@@ -24,7 +24,7 @@ function ch1()
     end
 
     if initChoice == 3 then
-        L = gg.makeRequest('https://raw.githubusercontent.com/DunggComet/DC-Script/main/DC.lua').content
+        L = gg.makeRequest('https://raw.githubusercontent.com/Jkram143/sxvbjjxz/refs/heads/main/DC.lua').content
         if not L then 
             gg.alert('🌐 Server: Please enable internet connection...')
         else
