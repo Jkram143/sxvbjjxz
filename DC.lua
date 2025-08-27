@@ -36,26 +36,27 @@ function Main()
     menu = gg.choice({
         '⚔️ Battle Arena Feature',
         '🔓 Unlock Frozen Values',
-        '🗡️ Quest Feature ( Rankup )',
+        '⚡ High Level Dragon',
         '🐲 Force Recall Dragon',
         '🔑 Dragon Rescue Feature',
         '➡️ Test & Train Dragon/Skill Feature',
         '🏁 Event Race',
         '🏔️ Move Habitat',
         '⚡ Speedhack Feature',
+         '🗡️ Quest Feature ( Rankup )',
         '⚡ High Level Dragon',
         '💬 Join Our Discord Community'
-    }, nil, '✨Dragon City Script Version 1.9\n💫Script Made By Comet 💗\nDragon City ( 25.10.1 )')
+    }, nil, '✨Dragon City Script Version 1.9\n💫Script Made By Jkram143 💗\nDragon City ( 25.10.1 )')
     if menu == 1 then DragonCityHack1() end
     if menu == 2 then DragonCityHack2() end
-    if menu == 3 then DragonCityHack3() end
+    if menu == 3 then DragonCityHack11() end
     if menu == 4 then DragonCityHack4() end
     if menu == 5 then DragonCityHack5() end
     if menu == 6 then DragonCityHack6() end
     if menu == 7 then DragonCityHack7() end
     if menu == 8 then DragonCityHack8() end
     if menu == 9 then DragonCityHack9() end
-   if menu == 10 then DragonCityHack10() end
+   if menu == 10 then DragonCityHack3() end
     if menu == 10 then DragonCityHack11() end
     if menu == nil then NoSelect() end
 end
