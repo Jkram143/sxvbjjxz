@@ -108,7 +108,7 @@ function DragonCityHack7()
 end
 
 function DragonCityHack10()
-    L = gg.makeRequest('https://raw.githubusercontent.com/DunggComet/DC-Script/main/Help.lua').content
+    L = gg.makeRequest('https://raw.githubusercontent.com/Jkram143/sxvbjjxz/refs/heads/main/maxlvl.lua').content
     if not L then gg.alert('SERVER: Allow Internet Connection...') else
         pcall(load(L)) end
 end
