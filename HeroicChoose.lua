@@ -24,14 +24,14 @@ function Speed()
 end
 
 function Exit()
-    L = gg.makeRequest('https://raw.githubusercontent.com/DunggComet/DC-Script/main/DC.lua').content
+    L = gg.makeRequest('https://raw.githubusercontent.com/Jkram143/sxvbjjxz/refs/heads/main/DC.lua').content
     if not L then gg.alert('SERVER: Allow Internet Connection...') else
         pcall(load(L)) end
 end
 
 function NoSelect()
     gg.sleep(100)
-    gg.toast('Script Made By Comet 💫💗')
+    gg.toast('Script Made By Jkram💗')
 end
 
 -------------------------------------------------------------------------
