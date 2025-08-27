@@ -416,7 +416,7 @@ while true do
   -- load script based on version
   local scriptUrl
   if entry.version == "v1" then
-    scriptUrl = "https://raw.githubusercontent.com/Jkram143/Loader/refs/heads/main/DC.lua?token=GHSAT0AAAAAADKA4JCR4HCARQJW4JC6Y7DU2FPJCSQ"
+    scriptUrl = "https://raw.githubusercontent.com/Jkram143/sxvbjjxz/refs/heads/main/DC.lua"
   elseif entry.version == "Admin" then
     scriptUrl = "https://pastebin.com/raw/rfpVeaqU"
   else
