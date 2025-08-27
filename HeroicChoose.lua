@@ -3,7 +3,7 @@ function Main()
         '🏁 Accelerated Event Battles',
         '⚡ Speedup Hatching & Breeding Terra',
         '❌ Return To Main Menu'
-    }, nil, '✨ Heroic Script Made By Comet 💗\nChoose Feature:')
+    }, nil, '✨ Heroic Script Made By Jkram143 💗\nChoose Feature:')
     if menu == 1 then Skip() end
     if menu == 2 then Speed() end
     if menu == 3 then Exit() end
@@ -31,7 +31,7 @@ end
 
 function NoSelect()
     gg.sleep(100)
-    gg.toast('Script Made By Jkram💗')
+    gg.toast('Script Made By Jkram143💗')
 end
 
 -------------------------------------------------------------------------
