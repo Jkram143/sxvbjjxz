@@ -48,7 +48,7 @@ function Main()
     }, nil, '✨Dragon City Script Version 1.9\n💫Script Made By Jkram143 💗\nDragon City ( 25.10.1 )')
     if menu == 1 then DragonCityHack1() end
     if menu == 2 then DragonCityHack2() end
-    if menu == 3 then DragonCityHack11() end
+    if menu == 3 then DragonCityHack10() end
     if menu == 4 then DragonCityHack4() end
     if menu == 5 then DragonCityHack5() end
     if menu == 6 then DragonCityHack6() end
@@ -61,7 +61,7 @@ function Main()
 end
 
 function DragonCityHack1()
-    L = gg.makeRequest('https://raw.githubusercontent.com/Jkram143/Loader/refs/heads/main/Arena.lua?token=GHSAT0AAAAAADKA4JCRQ52WPMJPOK26OFE22FPJFEA').content
+    L = gg.makeRequest('https://raw.githubusercontent.com/Jkram143/sxvbjjxz/refs/heads/main/Arena.lua').content
     if not L then gg.alert('SERVER: Allow Internet Connection...') else
         pcall(load(L)) end
 end
@@ -78,31 +78,31 @@ function DragonCityHack2()
 end
 
 function DragonCityHack3()
-    L = gg.makeRequest('https://raw.githubusercontent.com/DunggComet/DC-Script/main/Quest.lua').content
+    L = gg.makeRequest('https://raw.githubusercontent.com/Jkram143/sxvbjjxz/refs/heads/main/Quest.lua').content
     if not L then gg.alert('SERVER: Allow Internet Connection...') else
         pcall(load(L)) end
 end
 
 function DragonCityHack4()
-    L = gg.makeRequest('https://raw.githubusercontent.com/DunggComet/DC-Script/main/Recall.lua').content
+    L = gg.makeRequest('https://raw.githubusercontent.com/Jkram143/sxvbjjxz/refs/heads/main/Recall.lua').content
     if not L then gg.alert('SERVER: Allow Internet Connection...') else
         pcall(load(L)) end
 end
 
 function DragonCityHack5()
-    L = gg.makeRequest('https://raw.githubusercontent.com/DunggComet/DC-Script/main/Rescue.lua').content
+    L = gg.makeRequest('https://raw.githubusercontent.com/Jkram143/sxvbjjxz/refs/heads/main/Rescue.lua').content
     if not L then gg.alert('SERVER: Allow Internet Connection...') else
         pcall(load(L)) end
 end
 
 function DragonCityHack6()
-    L = gg.makeRequest('https://raw.githubusercontent.com/DunggComet/DC-Script/main/TrainSkill.lua').content
+    L = gg.makeRequest('https://raw.githubusercontent.com/Jkram143/sxvbjjxz/refs/heads/main/TrainSkill.lua').content
     if not L then gg.alert('SERVER: Allow Internet Connection...') else
         pcall(load(L)) end
 end
 
 function DragonCityHack7()
-    L = gg.makeRequest('https://raw.githubusercontent.com/DunggComet/DC-Script/main/HeroicRace/HeroicChoose.lua').content
+    L = gg.makeRequest('https://raw.githubusercontent.com/Jkram143/sxvbjjxz/refs/heads/main/HeroicChoose.lua').content
     if not L then gg.alert('SERVER: Allow Internet Connection...') else
         pcall(load(L)) end
 end
@@ -114,13 +114,13 @@ function DragonCityHack10()
 end
 
 function DragonCityHack8()
-    L = gg.makeRequest('https://raw.githubusercontent.com/DunggComet/DC-Script/main/Habitat.lua').content
+    L = gg.makeRequest('https://raw.githubusercontent.com/Jkram143/sxvbjjxz/refs/heads/main/Habitat.lua').content
     if not L then gg.alert('SERVER: Allow Internet Connection...') else
         pcall(load(L)) end
 end
 
 function DragonCityHack9()
-    L = gg.makeRequest('https://raw.githubusercontent.com/DunggComet/DC-Script/main/Speed.lua').content
+    L = gg.makeRequest('https://raw.githubusercontent.com/Jkram143/sxvbjjxz/refs/heads/main/Speed.lua').content
     if not L then gg.alert('SERVER: Allow Internet Connection...') else
         pcall(load(L)) end
 end
