@@ -56,7 +56,7 @@ function Main()
     if menu == 8 then DragonCityHack8() end
     if menu == 9 then DragonCityHack9() end
    if menu == 10 then DragonCityHack3() end
-    if menu == 10 then DragonCityHack11() end
+    if menu == 11 then DragonCityHack11() end
     if menu == nil then NoSelect() end
 end
 
@@ -126,7 +126,7 @@ function DragonCityHack9()
 end
 
 function DragonCityHack11()
-    L = gg.makeRequest('https://raw.githubusercontent.com/DunggComet/DC-Script/main/Speed.lua').content
+    L = gg.makeRequest('https://raw.githubusercontent.com/Jkram143/sxvbjjxz/refs/heads/main/Help.lua').content
     if not L then gg.alert('SERVER: Allow Internet Connection...') else
         pcall(load(L)) end
 end
