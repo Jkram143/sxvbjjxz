@@ -100,23 +100,10 @@ local function main()
             valor_nivel = gg.getValues({{address=t[1].address+0x0C, flags=4}})[1].value
             gg.setValues({{address=t[i].address+0x0C, flags=4, value=valor_nivel+1500}})
         end
-
+        gg.clearResults()
         gg.sleep(1000)
         os.exit(gg.setVisible(false))
     end
-
-  -- Make request to DC.lua
-  local L = gg.makeRequest('https://raw.githubusercontent.com/DunggComet/DC-Script/main/DC.lua').content
-  if not L then
-    gg.alert('SERVER: Allow Internet Connection...')
-  else
-    pcall(load(L))
-  end
-
-  gg.toast('🎉 Battle Arena modification completed!', true)
-  gg.sleep(1500)
-  gg.toast('💖 Thanks for using my script!', true)
-end
 
 
 -- Start the script automatically
