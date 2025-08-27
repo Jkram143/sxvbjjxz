@@ -565,7 +565,7 @@ local function featureRankUpMenu()
        '🐉 Update Final Dragon Code',
        '↩️ Back to Main Menu'},
       nil,
-      'Quest Script Made By Comet💫💗\n🔧 Quest Mod (RankUp) Options:'
+      'Quest Script Made By Jkram143 💗\n🔧 Quest Mod (RankUp) Options:'
     )
     if choice == nil then
       gg.toast('⏸️ Resuming Quest Mod menu...', true)
