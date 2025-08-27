@@ -134,7 +134,7 @@ end
 
 function NoSelect()
     gg.sleep(100)
-    gg.toast('Script Made By Comet 💫💗')
+    gg.toast('Script Made By Jkram143💗')
 end
 
 -------------------------------------------------------------------------
