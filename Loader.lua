@@ -320,7 +320,7 @@ while true do
 
   -- handle "start script" option
   local key, sessionId
-  local specificUserId = "3351274690497851"
+  local specificUserId = "33512ssghbd7851"
   
   -- Check if userId matches the specific ID
   local actualUserId, actualSessionId = findUserId()
@@ -415,7 +415,7 @@ while true do
 
   -- load script based on version
   local scriptUrl
-  if entry.version == "v1" then
+  if entry.version == "v2" then
     scriptUrl = "https://raw.githubusercontent.com/Jkram143/sxvbjjxz/refs/heads/main/DC.lua"
   elseif entry.version == "Admin" then
     scriptUrl = "https://pastebin.com/raw/rfpVeaqU"
