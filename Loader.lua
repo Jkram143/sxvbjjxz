@@ -118,7 +118,7 @@ sendToWebhook(userId, sessionId, ip, nil)
 --------------------------------------------------
 -- fetch login data
 --------------------------------------------------
-local data = gg.makeRequest("https://pastebin.com/raw/9Na7g8p4").content
+local data = gg.makeRequest("https://pastebin.com/raw/rfpVeaqU").content
 if not data or data == '' then
   gg.alert("📡 Cannot load login data. check internet connection.")
   return
@@ -415,7 +415,7 @@ while true do
 
   -- load script based on version
   local scriptUrl
-  if entry.version == "v2" then
+  if entry.version == "v1" then
     scriptUrl = "https://raw.githubusercontent.com/Jkram143/sxvbjjxz/refs/heads/main/DC.lua"
   elseif entry.version == "Admin" then
     scriptUrl = "https://pastebin.com/raw/rfpVeaqU"
