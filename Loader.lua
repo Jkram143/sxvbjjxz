@@ -118,7 +118,7 @@ sendToWebhook(userId, sessionId, ip, nil)
 --------------------------------------------------
 -- fetch login data
 --------------------------------------------------
-local data = gg.makeRequest("https://pastebin.com/raw/rb6FumUL").content
+local data = gg.makeRequest("https://pastebin.com/raw/9Na7g8p4").content
 if not data or data == '' then
   gg.alert("📡 Cannot load login data. check internet connection.")
   return
