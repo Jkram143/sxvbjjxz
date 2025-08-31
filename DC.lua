@@ -34,14 +34,15 @@ gg.setVisible(false)
 local MD5 = gg.makeRequest('').content
 function Main()
     menu = gg.choice({
-        '⚔️ Battle Arena Feature',
-        '🔓 Unlock Frozen Values',
-        '🔎 High Level Dragon',
-        '🐲 Force Recall Dragon',
-        '🔑 Dragon Rescue Feature',
-        '➡️ Test & Train Dragon/Skill Feature',
-        '🏁 Event Race',
-        '🏔️ Move Habitat',
+        '⚔️ Battle Arena Feature', --1
+        '🔓 Unlock Frozen Values', --2
+        '🔎 High Level Dragon', --3
+        '🐲 Force Recall Dragon', --4
+        '🔑 Dragon Rescue Feature', --5
+        '➡️ Test & Train Dragon/Skill Feature', --6
+        '🏁 Event Race', --7
+        '🏔️ Move Habitat', --8
+        ' 🏝️ Expand all Unlocked 🔓', --9
         '⚡ Speedhack Feature',
         '🗡️ Quest Feature ( Rankup )',
         '💬 Join Our Discord Community'
@@ -54,9 +55,10 @@ function Main()
     if menu == 6 then DragonCityHack6() end
     if menu == 7 then DragonCityHack7() end
     if menu == 8 then DragonCityHack8() end
-    if menu == 9 then DragonCityHack9() end
-   if menu == 10 then DragonCityHack3() end
-    if menu == 11 then DragonCityHack11() end
+    if menu == 9 then DragonCityHack12() end
+    if menu == 10 then DragonCityHack9() end
+    if menu == 11 then DragonCityHack3() end
+    if menu == 12 then DragonCityHack11() end
     if menu == nil then NoSelect() end
 end
 
@@ -131,7 +133,11 @@ function DragonCityHack11()
         pcall(load(L)) end
 end
 
-
+function DragonCityHack12()
+L = gg.makeRequest('https://raw.githubusercontent.com/Jkram143/sxvbjjxz/refs/heads/main/Expand.lua').content
+    if not L then gg.alert('SERVER: Allow Internet Connection...') else
+        pcall(load(L)) end
+end
 function NoSelect()
     gg.sleep(100)
     gg.toast('Script Made By Jkram143💗')
